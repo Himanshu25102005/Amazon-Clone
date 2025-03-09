@@ -33,10 +33,10 @@ This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project 
 ## 🖼️ Screenshots
 
 ### Home Page
-![Home Page](home_page.png)
+![Home Page](screenshots/home_page.png)
 
 ### Product Section
-![Product Section](product_section.png)
+![Product Section](screenshots/Screenshot-2025-03-09-152610.png)
 
 ## 🔮 Future Enhancements
 
