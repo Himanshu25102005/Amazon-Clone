@@ -33,7 +33,7 @@ This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project 
 ## 🖼️ Screenshots
 
 ### Home Page
-![Home Page](screenshots/home_page.png)
+![Home Page](screenshots/Screenshot-2025-03-09-152604.png)
 
 ### Product Section
 ![Product Section](screenshots/Screenshot-2025-03-09-152610.png)
