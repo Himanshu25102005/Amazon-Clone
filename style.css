@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logos{
+    height: 60px;
+    width: 113px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+.first{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 12px;
+}
+.sec{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-address{
+    margin: 10px;               
+}
+.outer:hover{
+    border: 1px solid white;
+    cursor:text ;
+}
+.box3{
+    display: flex;
+    align-items: center;
+}
+.all{
+    background-color: #e6e6e6;
+    color: #0f1111;
+    width: 52px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 552px;
+    background-color: white;
+    font-size: 1rem;
+    border: none;
+    height: 40px;
+    color: grey;
+    align-content: center;
+}
+.search-icon{
+    background-color: #f7b467;
+    width: 45px;
+    height: 40px;
+    align-content: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    font-size: 1.2rem;
+    color: black;
+}
+.lang{
+    display: flex;
+}
+.outer1{
+    width: 73px;
+    height: 50px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    font-size: 1rem;
+}
+.outer1:hover{
+    border: 1px solid white;
+}
+/* .sign{
+    margin-top: 10px;
+} */
+.bold{
+    font-weight: 00;
+}
+.outer2{
+    height: 100%;
+    margin: 3px;
+}
+.outer2:hover{
+    border: 1px solid white;
+}
+.orders{
+    width: 77px;
+    height: 50px;
+    display: flex;
+}
+.nav-return:hover{
+    border: 1px solid white;
+}
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart{
+    font-size: 30px;
+}
+.nav-cart:hover{
+    border: 1px solid white;
+}
+.topbar{
+    height: 40px;
+    width: 100%;
+    background-color: #232f33 ;
+    display: flex;
+}
+.top-all{
+    width: 59px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+#all{
+    margin-left: 5px;
+}
+.top-all:hover{
+    border: 1px solid white;
+}
+.top-deals{
+    color: white;
+    height: 40px;
+    margin-left: 13px;
+    align-content: center;
+    font-size: 1.1rem;
+}
+.top-deals:hover{
+    border: 1px solid white;
+}
+.top-service{
+    color: white;
+    margin-left: 13px;
+    font-size: 1.1rem;
+    align-content: center;
+}
+.top-service:hover{
+    border: 1px solid white;
+}
+.top-register{
+    color: white;
+    margin-left: 13px;
+    align-content: center;
+    font-size: 1.1rem;
+}
+.top-register:hover{
+    border: 1px solid white;
+}
+.top-gift{
+    color: white;
+    margin-left: 13px;
+    align-content: center;
+    font-size: 1.1rem;
+}
+.top-gift:hover{
+    border: 1px solid white;
+}
+.top-sell{
+    color: white;
+    margin-left: 13px;
+    align-content: center;
+    font-size: 1.1rem;
+}
+.top-sell:hover{
+    border: 1px solid white;
+}
+.top-elec{
+    color: white;
+    margin-left: 13px;
+    align-content: center;
+    font-size: 1.1rem;
+    text-align: end;
+}
+.top-elec:hover{
+    border: 1px solid white;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(236, 230, 230);
+}
+.ext-outer{
+    width: 100%;
+    height: 600px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+}
+
+.body-arrow{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    color: white;
+    align-items: center;
+}
+.arrow-left{
+    padding: 30px;
+    transition: .5s ease-in-out;
+}
+.arrow-left:hover{
+    font-size: 60px;
+}
+.arrow-right{
+    padding: 30px;
+    transition: .5s ease-in-out;
+}
+.arrow-right:hover{
+    font-size: 60px;
+}
+.body-cards{
+    width: 1250px;
+    height: 900px;
+    display: grid;
+    grid-template-rows: 420px 420px;
+    grid-template-columns: 312px 312px 312px 312px;
+    margin-left: 180px;
+    margin-top: 50px;
+    grid-gap: 40px;
+}
+.card-games{
+    background-color: white;
+}
+.card-games:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.game-grid{
+    padding: 0px 20px;
+    height: 87%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.game-grid img {
+    max-width: 100%;        /* Image adapts to the cell width */
+    max-height: 100%;       /* Image adapts to the cell height */
+    width: auto;            /* Maintain image aspect ratio */
+    height: auto;
+    object-fit: cover;      /* Cover the space without overflow */
+    border-radius: 10px;    /* Optional: rounded corners for images */
+}
+.heading{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+}
+.heaphone{
+    display: flex;
+    align-content: center;
+}
+a{
+    color: #007185;
+    text-decoration: none;
+}
+.card-cleaning{
+    background-color: white;
+}
+.card-cleaning:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.cleaning-grid{
+    padding: 0px 20px;
+    height: 87%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.cleaning-grid img {
+    max-width: 100%;        /* Image adapts to the cell width */
+    max-height: 100%;       /* Image adapts to the cell height */
+    width: auto;            /* Maintain image aspect ratio */
+    height: auto;
+    object-fit: cover;      /* Cover the space without overflow */ 
+}
+.card-fashion{
+    background-color: white;
+}
+.card-fashion:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.fashion-grid{
+    padding: 0px 20px;
+    height: 87%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.fashion-grid img {
+    max-width: 100%;        /* Image adapts to the cell width */
+    max-height: 100%;       /* Image adapts to the cell height */
+    width: auto;            /* Maintain image aspect ratio */
+    height: auto;
+    object-fit: cover;      /* Cover the space without overflow */ 
+}
+
+.card-home{
+    background-color: white;
+}
+.card-home:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.home-grid{
+    padding: 0px 20px;
+    height: 87%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.home-grid img {
+    max-width: 100%;        /* Image adapts to the cell width */
+    max-height: 100%;       /* Image adapts to the cell height */
+    width: auto;            /* Maintain image aspect ratio */
+    height: auto;
+    object-fit: cover;      /* Cover the space without overflow */ 
+}
+
+.card-space{
+    background-color: white;
+}
+.card-space:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.space-grid{
+    padding: 0px 20px;
+    height: 87%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.space-grid img {
+    max-width: 100%;        /* Image adapts to the cell width */
+    max-height: 100%;       /* Image adapts to the cell height */
+    width: auto;            /* Maintain image aspect ratio */
+    height: auto;
+    object-fit: cover;      /* Cover the space without overflow */ 
+}
+.toy img {
+    max-width: 100%;        /* Image adapts to the cell width */
+    max-height: 100%;       /* Image adapts to the cell height */
+    width: auto;            /* Maintain image aspect ratio */
+    height: auto;
+    object-fit: cover;      /* Cover the space without overflow */ 
+    margin-bottom: 117px;
+}
+.card-toys:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.pets img {
+    max-width: 100%;        /* Image adapts to the cell width */
+    max-height: 100%;       /* Image adapts to the cell height */
+    width: auto;            /* Maintain image aspect ratio */
+    height: auto;
+    object-fit: cover;      /* Cover the space without overflow */ 
+    margin-bottom: 117px;
+}
+.card-pets:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.card-travel{
+    background-color: white;
+}
+.card-travel:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+.travel-grid{
+    padding: 0px 20px;
+    height: 87%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.travel-grid img {
+    max-width: 100%;        /* Image adapts to the cell width */
+    max-height: 100%;       /* Image adapts to the cell height */
+    width: auto;            /* Maintain image aspect ratio */
+    height: auto;
+    object-fit: cover;      /* Cover the space without overflow */ 
+}
+.bar{
+    width: 1229px;
+    height: 281px;
+}
+#one{
+    text-align: left;
+    margin-left: 10px;
+}
+.books{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-pets{
+    background-color: white;
+}
+.card-toys{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.body-new{
+    height: 186px;
+    width: 1162px;
+    background-color: white;
+}
+.bar{
+    background-color: white;
+}
+#img:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
