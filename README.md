@@ -6,11 +6,11 @@ This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project 
 
 ## 🎯 Features
 
-✅ Fully responsive design 📱💻🖥️\
-✅ Amazon-style navigation bar with search & cart icons 🛍️🔍\
-✅ Product sections arranged in a grid layout 🏷️\
-✅ Footer with multiple useful links 🔗\
-✅ Hover effects and basic animations ✨
+✅ Fully responsive design. 📱💻🖥️\
+✅ Amazon-style navigation bar with search & cart icons. 🛍️🔍\
+✅ Product sections arranged in a grid layout. 🏷️\
+✅ Footer with multiple useful links. 🔗\
+✅ Hover effects and basic animation.s ✨
 
 ## 🛠️ Tech Stack
 
