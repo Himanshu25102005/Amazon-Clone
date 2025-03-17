@@ -10,7 +10,7 @@ This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project 
 ✅ Amazon-style navigation bar with search & cart icons. 🛍️🔍\
 ✅ Product sections arranged in a grid layout. 🏷️\
 ✅ Footer with multiple useful links. 🔗\
-✅ Hover effects and basic animation.s ✨
+✅ Hover effects and basic animations ✨
 
 ## 🛠️ Tech Stack
 
