@@ -57,5 +57,5 @@ This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project 
 
 ---
 
-### ⭐ If you like this project, don't forget to **star** it on GitHub! 🚀✨
+### ⭐ If you like this project, don't forget to **star** it on GitHub!! 🚀✨
 
