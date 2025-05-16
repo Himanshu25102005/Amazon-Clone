@@ -15,7 +15,7 @@ This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project 
 ## 🛠️ Tech Stack
 
 - **HTML** 🏗️ - Provides the structure and layout of the webpage.
-- **CSS** 🎨 - Responsible for styling, animations, and responsiveness.
+- **CSS** 🎨 - Responsible for styling, animations, and responsiveness
 
 ## 🚀 Installation & Usage
 
